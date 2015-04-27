@@ -1,0 +1,31 @@
+/**
+*
+* Quote
+*
+**/
+
+.m-quote {
+  p {
+    display: table-cell;
+    height: 25vw;
+    padding: 0 5%;
+    font-size: 16px;
+    vertical-align: middle;
+  }
+}
+
+@include medium {
+  .m-quote {
+    p {
+      font-size: 150%;
+    }
+  }
+}
+
+@include huge {
+  .m-quote {
+    p {
+      height: 12.5vw;
+    }
+  }
+}
